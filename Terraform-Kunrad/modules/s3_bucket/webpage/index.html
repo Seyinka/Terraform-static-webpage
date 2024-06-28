@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project1</title>
+    <link rel="stylesheet" href="ass2.css">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&family=Sofia+Sans+Condensed:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+   
+</head>
+<body>
+    <header>Sign Up|Individual</header>
+    <section>
+        <div class="main-container">
+            <div class="container">
+                <div class="logo">
+                    <img src="Logo.png" alt="logo">
+                </div>
+                <h2>For Individuals</h2>
+                <p>Start benefiting from the wellness experience. For companies looking on increasing productivity, and improving organization wellness.</p>
+
+                <p class="mobile-screen">Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere.</p>
+            </div>
+           
+            <div class="form-container">
+                <form action="" method="post">
+                    <div class="flex">
+                        <span class="first-name">
+                            <label for="">First Name</label><br>
+                            <input type="text" placeholder="Seyi">
+                        </span> <br>
+                        <span>
+                            <label for="">Last Name</label><br>
+                            <input type="text" placeholder="Oluwaseitan">
+                        </span>
+                    </div>
+                    
+                    <div class="flex">
+                        <span>
+                            <label for="">Gender</label><br>
+                            <select name="gender" id="gender">
+                                <option value="" disabled selected>Select here</option>
+                                <option value="">Male</option>
+                                <option value="">Female</option>
+                               </select>
+                        </span> <br>
+
+                        <span class="d-o-b" >
+                            <label for="">Date of Birth</label><br>
+                        <input type="text" id="date" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="select here">
+
+                            <span class="material-symbols-outlined">
+                                calendar_month
+                                </span>
+                        </span>
+                    </div>
+                    <div class="flex">
+                        <span>
+                            <label for="">Weight (KG)</label><br>
+                            <input type="text" placeholder="Enter Weight">
+                        </span> <br>
+                        <span>
+                            <label for="">Height (CM)</label><br>
+                            <input type="text" placeholder="Enter height here">
+                         </span><br>
+                    </div>
+                    <div class="activity-level">
+                        <label for="">Activity Level</label><br>
+                                     <select name="activity" id="activity">
+                            <option value="" disabled selected>Select here</option>
+                            <option value="">Beginner</option>
+                            <option value="">Intermediate</option>
+                            <option value="">Professional</option>
+                            <option value="">World Class</option>
+                        </select>
+                    </div>
+                    <br>
+
+                    <div class="password">
+                        <label for="">Password</label><br>
+                         <input type="password" placeholder="" required>
+                         <span class="material-symbols-outlined">
+                            visibility
+                            </span>
+                    </div><br>
+                     <button>Register</button><br>
+                     <footer>
+                            <p>By clicking Register, you agree to our <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy.</a></p> <br>
+                    </footer>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
